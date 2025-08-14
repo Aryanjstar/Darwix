@@ -49,10 +49,6 @@ AZURE_OPENAI_API_VERSION=2025-01-01-preview
 - ⚠️ **Key will be rotated after evaluation** for security
 - 🔒 **Enterprise-level security** and compliance
 
-### **For Judges: API Key Access**
-
-**The `.env` file with working API credentials is provided in the ZIP submission.** GitHub's security prevented pushing the API key to the public repository (which is good security practice), but the complete working project with credentials is available in the ZIP file for evaluation.
-
 ### **Why Azure OpenAI?**
 
 - **Reliability**: Production-grade uptime and consistency
