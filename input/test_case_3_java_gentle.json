@@ -1,0 +1,8 @@
+{
+	"code_snippet": "public class UserValidator {\n    public boolean isValid(String email) {\n        if (email.contains(\"@\")) {\n            return true;\n        } else {\n            return false;\n        }\n    }\n}",
+	"review_comments": [
+		"Consider using a more robust email validation approach.",
+		"The if-else structure could be simplified.",
+		"Maybe add some input validation for null values."
+	]
+}

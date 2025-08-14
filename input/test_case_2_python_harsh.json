@@ -1,0 +1,9 @@
+{
+	"code_snippet": "def process_data(data):\n    result = []\n    for item in data:\n        if item != None:\n            if len(item) > 0:\n                result.append(item.upper())\n    return result",
+	"review_comments": [
+		"This function is terrible and poorly written.",
+		"The nested if statements are awful - use proper logic.",
+		"Don't compare to None like this, it's wrong.",
+		"This code is unreadable and needs to be completely rewritten."
+	]
+}

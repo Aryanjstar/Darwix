@@ -1,0 +1,10 @@
+{
+	"code_snippet": "class UserManager {\n    constructor() {\n        this.users = [];\n    }\n    \n    addUser(u) {\n        this.users.push(u);\n    }\n    \n    getActiveUsers() {\n        var result = [];\n        for (var i = 0; i < this.users.length; i++) {\n            if (this.users[i].active == true) {\n                result.push(this.users[i]);\n            }\n        }\n        return result;\n    }\n}",
+	"review_comments": [
+		"This code is terrible and outdated. Use modern JavaScript.",
+		"Parameter 'u' is a horrible variable name.",
+		"Don't use 'var', it's deprecated and causes scope issues.",
+		"This loop is inefficient and hard to read. Use array methods.",
+		"Boolean comparison with '== true' is redundant and bad practice."
+	]
+}

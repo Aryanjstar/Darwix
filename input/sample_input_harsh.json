@@ -1,0 +1,9 @@
+{
+	"code_snippet": "function calculateTotal(items) {\n    var total = 0;\n    for (var i = 0; i < items.length; i++) {\n        total = total + items[i].price;\n    }\n    return total;\n}",
+	"review_comments": [
+		"This code is terrible. Use modern JavaScript syntax.",
+		"Don't use var, it's bad practice.",
+		"This loop is inefficient and hard to read.",
+		"No error handling - what if items is null?"
+	]
+}
