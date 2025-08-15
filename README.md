@@ -33,12 +33,14 @@ python3 main.py input/sample_input.json -o output/result.md
 **Complete credentials provided in `.env` file for evaluation:**
 
 ```env
-AZURE_OPENAI_ENDPOINT=https://gpt-31.openai.azure.com/
-AZURE_OPENAI_API_KEY=[PROVIDED_IN_ENV_FILE]
+AZURE_OPENAI_ENDPOINT=https://xxx
+AZURE_OPENAI_API_KEY=[xxxxx]
 AZURE_OPENAI_CHATGPT_DEPLOYMENT=gpt-4.1
 AZURE_OPENAI_CHATGPT_MODEL=gpt-4.1
-AZURE_OPENAI_API_VERSION=2025-01-01-preview
+AZURE_OPENAI_API_VERSION=xxx
 ```
+
+Please use your API key for testing it, I have changed my keys.
 
 ### **Important Notes**
 
