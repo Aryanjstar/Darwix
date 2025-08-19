@@ -40,7 +40,7 @@ AZURE_OPENAI_CHATGPT_MODEL=gpt-4.1
 AZURE_OPENAI_API_VERSION=xxx
 ```
 
-Please use your API key for testing it, I have changed my keys.
+Please use the keys provided in the zip file or use your own key.
 
 ### **Important Notes**
 
@@ -48,7 +48,7 @@ Please use your API key for testing it, I have changed my keys.
 - ✅ **Valid for entire judging period** - no setup required
 - ✅ **Sufficient credits available** for comprehensive evaluation
 - ✅ **Production-grade Azure OpenAI** (not free alternatives)
-- ⚠️ **Key will be rotated after evaluation** for security
+- ⚠️ **Key will be rotated soon after evaluation** for security
 - 🔒 **Enterprise-level security** and compliance
 
 ### **Why Azure OpenAI?**
